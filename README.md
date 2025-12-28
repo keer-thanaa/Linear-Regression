@@ -41,17 +41,7 @@ The **intercept** is the value of the output when all feature values are zero. I
 
 From the trained linear regression model, the equation of the line is:
 
-y = 151.3456
-+ 37.9040 * age
-- 241.9644 * sex
-+ 542.4288 * bmi
-+ 347.7038 * bp
-- 931.4888 * s1
-+ 518.0623 * s2
-+ 163.4200 * s3
-+ 275.3179 * s4
-+ 736.1989 * s5
-+ 48.6707 * s6
+y = 151.3456+ 37.9040 * age- 241.9644 * sex+ 542.4288 * bmi+ 347.7038 * bp- 931.4888 * s1+ 518.0623 * s2+ 163.4200 * s3+275.3179 * s4+ 736.1989 * s5+ 48.6707 * s6
 
 Here:
 
