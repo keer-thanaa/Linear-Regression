@@ -59,3 +59,30 @@ This means that **for a one-unit increase in the age feature**, keeping all othe
 
 So, age has a **positive impact** on the prediction, indicating that higher age contributes to a higher predicted diabetes progression in this model.
 
+## Model Performance Metrics
+
+After training the model, we obtained:
+Mean Squared Error (MSE): 2900.19
+R² Score: 0.4526
+
+
+### What do these mean?
+
+- **Mean Squared Error (MSE):** Measures the average squared difference between the predicted and actual values. A **higher MSE** indicates that the predictions are far from the actual values.  
+- **R² Score:** Indicates how much variance in the target variable is explained by the model. A value of **1** is perfect prediction, while **0** means the model does not explain the variance at all.  
+
+### Interpretation
+
+Here, the **MSE is high** and **R² is low (~0.45)**, which means the model **is not very accurate**. Linear regression may not capture all the complex patterns in the data.
+
+---
+
+## Conclusion
+
+Linear regression works well when there is a **linear relationship** between features and the target.  
+
+But what about **non-linear relationships**?  
+
+Stay tuned! Next time, we’ll explore **kernel methods** to handle non-linear patterns in data.
+
+
